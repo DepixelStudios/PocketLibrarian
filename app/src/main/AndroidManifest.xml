@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.depixel.pocketlibrarian">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pocket_librarian_logo"
+        android:roundIcon="@drawable/pocketlibrarian_logo_round"
+        android:label="Pocket Librarian"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/PocketLibrarian.NoActionBar">
+        <activity
+            android:name="com.depixel.pocketlibrarian.AllSubjectsPopup"
+            android:theme="@style/myDialog"
+            android:exported="false" />
+        <activity
+            android:name="com.depixel.pocketlibrarian.TopChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_top_chart"
+            android:screenOrientation="portrait"
+            android:theme="@style/PocketLibrarian.NoActionBar.NoActionBar" />
+        <activity
+            android:name="com.depixel.pocketlibrarian.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait"
+            android:theme="@style/PocketLibrarian.NoActionBar.NoActionBar" />
+        <activity android:name="com.depixel.pocketlibrarian.savedBooks" />
+        <activity
+            android:name="com.depixel.pocketlibrarian.ScannedBook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.depixel.pocketlibrarian.ScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.depixel.pocketlibrarian.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

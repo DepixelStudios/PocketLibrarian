@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_primary">#9064DD</color>
+    <color name="purple_light">#B499E4</color>
+    <color name="blue">#7579E7</color>
+    <color name="blue_light">#E6E7F8</color>
+    <color name="red">#E77575</color>
+    <color name="red_light">#FCEAEA</color>
+    <color name="mint">#5AABA0</color>
+    <color name="ash">#5E6471</color>
+    <color name="gray_dark">#9F9F9F</color>
+    <color name="gray">#F1F1F1</color>
+    <color name="almost_black">#222533</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bookmark_fill">#0D1038</color>
+    <color name="orange">#E18E00</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

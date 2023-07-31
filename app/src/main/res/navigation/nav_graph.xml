@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.depixel.pocketlibrarian.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/scanActivity"
+        android:name="com.depixel.pocketlibrarian.ScanActivity"
+        android:label="activity_scan"
+        tools:layout="@layout/activity_scan" />
+    <activity
+        android:id="@+id/scannedBook"
+        android:name="com.depixel.pocketlibrarian.ScannedBook"
+        android:label="activity_scanned_book"
+        tools:layout="@layout/activity_scanned_book" />
+    <activity
+        android:id="@+id/savedBooks"
+        android:name="com.depixel.pocketlibrarian.savedBooks"
+        android:label="activity_saved_books"
+        tools:layout="@layout/activity_saved_books" />
+</navigation>

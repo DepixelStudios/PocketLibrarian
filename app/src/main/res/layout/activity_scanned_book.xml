@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scannedBook_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.PocketLibrarian"
+    android:fitsSystemWindows="true"
+    android:visibility="visible"
+    tools:context=".ScannedBook">
+
+
+    <ImageView
+        android:id="@+id/backgroundBlurredCover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.75"
+        android:theme="@style/Theme.PocketLibrarian" />
+
+    <ImageView
+        android:id="@+id/bottombit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:background="@color/transparent"
+        android:src="@drawable/topbit"
+        android:theme="@style/Shapes" />
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/scanResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Sample ISBN Test"
+        android:textColor="@color/gray_dark"
+        android:textSize="24sp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/divider1"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/scannedBookView_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@color/gray_dark"
+        android:visibility="invisible" />
+
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/externalLinksLayout"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/divider1"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:gravity="center"
+
+        android:layout_marginTop="12dp">
+
+        <ImageButton
+            android:id="@+id/amazonButton"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/amazon_icon" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <ImageButton
+            android:id="@+id/bnButton"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/barnesandnoble_icon"
+            android:background="@null"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+
+
+
+        <ImageButton
+            android:id="@+id/grButton"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/goodreads_icon"
+            android:background="@null"/>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scannedBookView_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@color/transparent"
+        android:overScrollMode="never"
+        android:theme="@style/Empty" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/filePathTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scannedBookView_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/transparent"
+        android:ellipsize="end"
+        android:fontFamily="@font/sourcesanspro_regular"
+        android:maxLines="4"
+        android:text="smtn"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/transparent"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/bookBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:padding="14dp"
+            android:src="@drawable/back_icon" />
+
+        <Button
+            android:id="@+id/gbButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:paddingVertical="18dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="View in Google Books"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

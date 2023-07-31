@@ -1,0 +1,39 @@
+{
+  "genres": [
+    {
+      "subjectName": "Fiction",
+      "emoji": "\uD83D\uDCDC",
+      "query": "subject:fiction"
+    },
+    {
+      "subjectName": "Nonfiction",
+      "emoji": "\uD83D\uDCD6",
+      "query": "subject:nonfiction"
+    },
+    {
+      "subjectName": "Romance",
+      "emoji": "\uD83D\uDC96",
+      "query": "subject:romance"
+    },
+    {
+      "subjectName": "Fantasy",
+      "emoji": "\uD83E\uDE84",
+      "query": "subject:fiction"
+    },
+    {
+      "subjectName": "Horror",
+      "emoji": "\uD83D\uDC80",
+      "query": "subject:horror"
+    },
+    {
+      "subjectName": "More",
+      "emoji": "✨",
+      "query": "more"
+    },
+    {
+      "subjectName": "Mystery",
+      "emoji": "\uD83D\uDD0D",
+      "query": "subject:mystery"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_primary">#9F6EF4</color>
+    <color name="purple_light">#A582E1</color>
+    <color name="blue">#7579E7</color>
+    <color name="blue_light">#E6E7F8</color>
+    <color name="red">#E77575</color>
+    <color name="red_light">#FCEAEA</color>
+    <color name="mint">#5AABA0</color>
+    <color name="ash">#5E6471</color>
+    <color name="gray_dark">#9F9F9F</color>
+    <color name="gray">#EAEAEA</color>
+    <color name="almost_black">#222533</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#E18E00</color>
+    <color name="custom_button_fill">@color/purple_light</color>
+    <color name="custom_button_stroke">@color/transparent</color>
+    <color name="custom_button_text">@color/white</color>
+    <color name="category_tag_stroke">@color/gray</color>
+    <color name="category_tag_fill">@color/white</color>
+    <color name="search_bar_stroke">@color/gray_dark</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

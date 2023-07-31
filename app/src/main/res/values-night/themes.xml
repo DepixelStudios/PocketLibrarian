@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PocketLibrarian" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background" type="">#03001B</item>
+<!--        #121212-->
+    </style>
+
+    <style name="Shapes" >
+        <item name="android:tint" type="">#0D1038</item>
+<!--#2E3033-->
+    </style>
+
+    <style name="Bookmark">
+        <item name="color" type="">#0D1038</item>
+    </style>
+
+
+    <style name="SearchBarText">
+        <item name="android:textColor" type="">@color/gray</item>
+        <item name="android:textColorHint" type="">@color/gray</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SecondaryText">
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="TertiaryText">
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="Logo" >
+        <item name="android:tint" type="">@color/gray_dark</item>
+    </style>
+
+    <style name="ash_white_text">
+        <item name="android:textColor" type="">@color/white</item>
+    </style>
+</resources>

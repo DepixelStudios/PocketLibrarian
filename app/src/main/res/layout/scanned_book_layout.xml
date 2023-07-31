@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:id="@+id/bookCoverImgCard"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/transparent">
+
+        <ImageView
+            android:id="@+id/bookCoverImg"
+            android:layout_width="160dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="6"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/bookAuthorTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookCoverImgCard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="35dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/transparent"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_medium"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0sp"
+        android:maxLines="1"
+        android:shadowColor="#28000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:text="Ray Bradbury"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="14sp"
+        android:theme="@style/SecondaryText" />
+
+    <TextView
+        android:id="@+id/bookTitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookAuthorTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="4dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/transparent"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0sp"
+        android:maxLines="2"
+        android:shadowColor="#28000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:text="Fahrenheit 451"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:theme="@style/PrimaryText" />
+
+
+    <TextView
+        android:id="@+id/reviewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookTitleTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/ic_round_star_24"
+        android:drawablePadding="1dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="N/A"
+        android:textAlignment="center"
+        android:textColor="#E18E00"
+        android:visibility="visible" />
+
+
+    <RelativeLayout
+        android:background="@color/transparent"
+        android:id="@+id/pgLangLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reviewRating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pageCountTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent"
+            android:maxLines="1"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="N/A Pages"
+            android:textSize="12sp"
+            android:theme="@style/TertiaryText" />
+
+        <ImageView
+            android:id="@+id/divider1"
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/pageCountTxt"
+            android:layout_centerHorizontal="true"
+            android:background="@color/gray_dark" />
+
+        <TextView
+            android:id="@+id/langTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider1"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent"
+            android:fontFamily="@font/montserrat_medium"
+            android:maxLines="1"
+            android:text="Lang N/A"
+            android:textSize="12sp"
+            android:theme="@style/TertiaryText" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/descTxt"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/pgLangLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/montserrat_medium"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:text="Description Not Found"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryText" />
+
+</RelativeLayout>

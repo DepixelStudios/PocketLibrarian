@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/back_icon.xml" value="0.1935" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/bookmark_button.xml" value="0.1935" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/bookmark_hollow.xml" value="0.1935" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/category_tag.xml" value="0.3635" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/category_tag_nostroke.xml" value="0.3635" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/custom_button.xml" value="0.1935" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1935" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/manga_vector.xml" value="0.1935" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/more_subjects_container.xml" value="0.1935" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/new_releases_bg.xml" value="0.1995" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/search_bar.xml" value="0.1355" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/top_100_bg.xml" value="0.1995" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/top_authors_bg.xml" value="0.1995" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/drawable/topbit.xml" value="0.236" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/font/.xml" value="0.18157894736842106" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/font/merriweather.xml" value="0.3264069264069264" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/font/montserrat_medium.xml" value="0.3264069264069264" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/activity_all_subjects_popup.xml" value="0.25" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/activity_saved_books.xml" value="0.156140350877193" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/activity_scan.xml" value="0.33" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/activity_scanned_book.xml" value="0.33" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/activity_search.xml" value="0.264" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/activity_top_chart.xml" value="0.18" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/all_subjects_popup.xml" value="0.5108958837772397" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/category_item.xml" value="0.25" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/chart_item_row.xml" value="0.33" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/content_top_chart.xml" value="0.30526315789473685" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/discover_row.xml" value="0.25" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/fragment_first.xml" value="0.30526315789473685" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/fragment_second.xml" value="0.30526315789473685" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/more_category_item.xml" value="0.33" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/recently_scanned_row.xml" value="0.156140350877193" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/scanned_book_layout.xml" value="0.33" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/search_results_row.xml" value="0.38860103626943004" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/layout/top_charts_row.xml" value="0.30526315789473685" />
+        <entry key="..\:/Users/sruja/OneDrive/Desktop/Backup/PocketLibrarian/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.109" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>

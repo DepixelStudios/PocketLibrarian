@@ -1,0 +1,30 @@
+{
+  "charts": [
+    {
+      "itemTitle": "Fiction",
+      "background": "R.drawable.top_100_bg",
+      "query": "https://api.nytimes.com/svc/books/v3/lists/combined-print-and-e-book-fiction.json?api-key=M91X8L2rGTNV1ZIecLA0Ng6wX4maKFMe"
+    },
+    {
+      "itemTitle": "Nonfiction",
+      "background": "R.drawable.new_releases_bg",
+      "query": "https://api.nytimes.com/svc/books/v3/lists/combined-print-and-e-book-nonfiction.json?api-key=M91X8L2rGTNV1ZIecLA0Ng6wX4maKFMe"
+    },
+    {
+      "itemTitle": "Young Adult",
+      "background": "R.drawable.bestsellers_bg",
+      "query": "https://api.nytimes.com/svc/books/v3/lists/young-adult.json?api-key=M91X8L2rGTNV1ZIecLA0Ng6wX4maKFMe"
+    },
+    {
+      "itemTitle": "Children's",
+      "background": "R.drawable.top_authors_bg",
+      "query": "https://api.nytimes.com/svc/books/v3/lists/paperback-books.json?api-key=M91X8L2rGTNV1ZIecLA0Ng6wX4maKFMe"
+    },
+    {
+      "itemTitle": "Manga",
+      "background": "R.drawable.manga_vector",
+      "query": "https://api.nytimes.com/svc/books/v3/lists/manga.json?api-key=M91X8L2rGTNV1ZIecLA0Ng6wX4maKFMe"
+    }
+  ]
+}
+

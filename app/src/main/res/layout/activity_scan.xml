@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ScanActivity">
+
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoFocusButtonColor="@color/white"
+        app:autoFocusButtonVisible="false"
+        app:flashButtonColor="@color/white"
+        app:flashButtonVisible="false"
+        app:frameColor="#FFFFFF"
+        app:frameCornersRadius="70dp"
+        app:frameCornersSize="75dp"
+        app:frameThickness="10dp"
+        app:maskColor="#80000000">
+
+    </com.budiyev.android.codescanner.CodeScannerView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanner_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="-100dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Scan the barcode on the back of the book!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/scanBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_button"
+        android:padding="12dp"
+        android:src="@drawable/back_icon" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/discoverCard"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:cardCornerRadius="18dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/all_items_popup_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+            tools:listitem="@layout/more_category_item" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

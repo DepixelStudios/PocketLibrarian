@@ -1,0 +1,209 @@
+{
+  "genres": [
+    {
+      "subjectName": "Anthology",
+      "emoji": "\uD83D\uDCDA",
+      "query": "subject:anthology"
+    },
+    {
+      "subjectName": "Art",
+      "emoji": "\uD83C\uDFA8",
+      "query": "subject:art"
+    },
+    {
+      "subjectName": "Audiobook",
+      "emoji": "\uD83C\uDF99",
+      "query": "subject:audiobook"
+    },
+    {
+      "subjectName": "Biography",
+      "emoji": "\uD83D\uDC64",
+      "query": "subject:biography"
+    },
+    {
+      "subjectName": "Biology",
+      "emoji": "\uD83E\uDDEC",
+      "query": "subject:biology"
+    },
+    {
+      "subjectName": "Body",
+      "emoji": "\uD83E\uDDCD",
+      "query": "subject:body"
+    },
+    {
+      "subjectName": "Business",
+      "emoji": "\uD83D\uDCBC",
+      "query": "subject:business"
+    },
+    {
+      "subjectName": "Chemistry",
+      "emoji": "\uD83E\uDDEA",
+      "query": "subject:chemistry"
+    },
+    {
+      "subjectName": "Children",
+      "emoji": "\uD83D\uDC76",
+      "query": "subject:children"
+    },
+    {
+      "subjectName": "Comics",
+      "emoji": "\uD83D\uDCAD",
+      "query": "subject:comics"
+    },
+    {
+      "subjectName": "Contemporary",
+      "emoji": "\uD83C\uDD95",
+      "query": "subject:contemporary"
+    },
+    {
+      "subjectName": "Cooking",
+      "emoji": "\uD83C\uDF73",
+      "query": "subject:cooking"
+    },
+    {
+      "subjectName": "Crime",
+      "emoji": "\uD83D\uDD2A",
+      "query": "subject:crime"
+    },
+    {
+      "subjectName": "Engineering",
+      "emoji": "\uD83D\uDD27",
+      "query": "subject:engineering"
+    },
+    {
+      "subjectName": "Entertainment",
+      "emoji": "\uD83C\uDFAD",
+      "query": "subject:entertainment"
+    },
+    {
+      "subjectName": "Fantasy",
+      "emoji": "\uD83E\uDE84",
+      "query": "subject:fantasy"
+    },
+    {
+      "subjectName": "Fiction",
+      "emoji": "\uD83D\uDCDC",
+      "query": "subject:fiction"
+    },
+    {
+      "subjectName": "Food",
+      "emoji": "\uD83C\uDF55",
+      "query": "subject:food"
+    },
+    {
+      "subjectName": "General",
+      "emoji": "\uD83C\uDF10",
+      "query": "subject:general"
+    },
+    {
+      "subjectName": "Health",
+      "emoji": "\uD83D\uDC8A",
+      "query": "subject:health"
+    },
+    {
+      "subjectName": "History",
+      "emoji": "⌛",
+      "query": "subject:history"
+    },
+    {
+      "subjectName": "Horror",
+      "emoji": "\uD83D\uDC80",
+      "query": "subject:horror"
+    },
+    {
+      "subjectName": "Investing",
+      "emoji": "\uD83D\uDCB5",
+      "query": "subject:investing"
+    },
+    {
+      "subjectName": "Literature",
+      "emoji": "\uD83D\uDCD5",
+      "query": "subject:literature"
+    },
+    {
+      "subjectName": "Manga",
+      "emoji": "\uD83C\uDFEF",
+      "query": "subject:manga"
+    },
+    {
+      "subjectName": "Memoir",
+      "emoji": "\uD83D\uDCDD",
+      "query": "subject:memoir"
+    },
+    {
+      "subjectName": "Mind",
+      "emoji": "\uD83E\uDDE0",
+      "query": "subject:mind"
+    },
+    {
+      "subjectName": "Mystery",
+      "emoji": "\uD83D\uDD0D",
+      "query": "subject:mystery"
+    },
+    {
+      "subjectName": "Nonfiction",
+      "emoji": "\uD83D\uDCD6",
+      "query": "subject:nonfiction"
+    },
+    {
+      "subjectName": "Poetry",
+      "emoji": "\uD83E\uDEB6",
+      "query": "subject:poetry"
+    },
+    {
+      "subjectName": "Politics",
+      "emoji": "\uD83D\uDCDC",
+      "query": "subject:politics"
+    },
+    {
+      "subjectName": "Religion",
+      "emoji": "\uD83D\uDE4F",
+      "query": "subject:religion"
+    },
+    {
+      "subjectName": "Romance",
+      "emoji": "\uD83D\uDC96",
+      "query": "subject:romance"
+    },
+    {
+      "subjectName": "Science",
+      "emoji": "\uD83E\uDDEA",
+      "query": "subject:science"
+    },
+    {
+      "subjectName": "Self",
+      "emoji": "\uD83D\uDE42",
+      "query": "subject:self"
+    },
+    {
+      "subjectName": "Spirituality",
+      "emoji": "☯",
+      "query": "subject:spirituality"
+    },
+    {
+      "subjectName": "Sports",
+      "emoji": "⚽",
+      "query": "subject:sports"
+    },
+    {
+      "subjectName": "Superhero",
+      "emoji": "\uD83D\uDCA5",
+      "query": "subject:superhero"
+    },
+    {
+      "subjectName": "Technology",
+      "emoji": "\uD83D\uDCBB",
+      "query": "subject:technology"
+    },
+    {
+      "subjectName": "Thriller",
+      "emoji": "\uD83D\uDE31",
+      "query": "subject:thriller"
+    },
+    {
+      "subjectName": "Travel",
+      "emoji": "✈️",
+      "query": "subject:travel"
+    }
+  ]
+}

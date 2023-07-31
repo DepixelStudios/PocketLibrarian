@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.PocketLibrarian"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:visibility="visible"
+    tools:context=".TopChartActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chartItemsRecycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:paddingBottom="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomtray"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topTitle"
+        tools:listitem="@layout/chart_item_row" />
+
+    <TextView
+        android:id="@+id/topTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/montserrat_black"
+        android:text="Top "
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"
+        android:theme="@style/PrimaryText" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/topTitle"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/bottomtray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        android:fitsSystemWindows="false"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.PocketLibrarian"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/homeButton2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/home_icon" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"></Space>
+
+        <Button
+            android:id="@+id/scanButton2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/book_icon"
+            android:backgroundTint="@color/purple_primary" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"></Space>
+
+
+        <Button
+            android:id="@+id/savedBooks2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/bookmark_icon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/chartItemsRecycler"
+        android:layout_marginTop="-90dp"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>

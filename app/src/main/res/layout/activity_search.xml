@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.PocketLibrarian"
+    tools:context=".SearchActivity"
+    android:configChanges="orientation|screenSize|keyboardHidden"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+<!--        <ImageView-->
+<!--            android:layout_width="36dp"-->
+<!--            android:layout_height="36dp"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            android:src="@drawable/back_icon"/>-->
+
+<!--        <SearchView-->
+<!--            android:theme="@style/Theme.PocketLibrarian"-->
+<!--            android:id="@+id/bookSearch"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="0dp"-->
+<!--            android:queryHint="Search for a book"-->
+<!--            android:iconifiedByDefault="false"-->
+<!--            android:background="@drawable/search_bar"-->
+<!--            android:queryBackground="@color/transparent"-->
+<!--            android:focusedByDefault="true"-->
+<!--            />-->
+
+        <TextView
+            android:id="@+id/searchQueryBar"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text=""
+            android:textSize="18dp"
+            android:paddingVertical="8dp"
+            android:layout_marginStart="16dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/search_bar_stroke"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:textColor="@color/search_bar_stroke"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cancel"
+            android:layout_marginHorizontal="14dp"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/search_bar_stroke"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/gray_dark"/>
+
+    <TextView
+        android:paddingVertical="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Results Found"
+        android:visibility="gone"
+        android:id="@+id/notFoundTxt"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchResults_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

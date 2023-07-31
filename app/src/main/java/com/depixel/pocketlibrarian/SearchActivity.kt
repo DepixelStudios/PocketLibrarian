@@ -39,7 +39,7 @@ class SearchActivity : AppCompatActivity() {
         println("Attempting to Fetch JSON")
 
         val urlBase = "https://www.googleapis.com/books/v1/volumes?q="
-        val urlParameters = "&maxResults=20&key=AIzaSyBTvvByXyV9YUqZlTFDJo7spkDjVZwpcMw"
+        val urlParameters = "&maxResults=20&key=###" // insert API key here
         val finalQuery = query?.replace("\\s".toRegex(), "+")?.toLowerCase()
 
         val url = urlBase + finalQuery + urlParameters

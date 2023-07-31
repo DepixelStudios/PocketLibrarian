@@ -88,7 +88,7 @@ class ScannedBook : AppCompatActivity() {
 
 
         val urlBase = "https://www.googleapis.com/books/v1/volumes?q=isbn:"
-        val urlParameters = "&maxResults=1&key=AIzaSyBTvvByXyV9YUqZlTFDJo7spkDjVZwpcMw"
+        val urlParameters = "&maxResults=1&key=###" // insert key here
         val url = urlBase + isbnData + urlParameters
         val request = okhttp3.Request.Builder().url(url).build()
         val client = OkHttpClient()
